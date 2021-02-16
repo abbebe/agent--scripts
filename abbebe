@@ -1,3 +1,8 @@
 #!/bin/bash
 
 if [  $(UID) -ne  0 ]
+then 
+echo
+echo "you are not root acess"
+exit 1
+fi
