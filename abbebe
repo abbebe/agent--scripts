@@ -1,0 +1,3 @@
+#!/bin/bash
+
+if [  $(UID) -ne  0 ]
